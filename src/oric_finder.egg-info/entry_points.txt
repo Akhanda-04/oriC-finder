@@ -1,0 +1,2 @@
+[console_scripts]
+oric-finder = oric_finder.cli:main

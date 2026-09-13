@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oric-finder"
+version = "0.1.0"
+description = "Predict bacterial replication origin (OriC) regions."
+requires-python = ">=3.10"
+
+[project.scripts]
+oric-finder = "oric_finder.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

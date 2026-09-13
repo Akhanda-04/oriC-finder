@@ -100,3 +100,4 @@ def find_dnaa_motifs(
             results.append((position, window, score))
 
     return results
+

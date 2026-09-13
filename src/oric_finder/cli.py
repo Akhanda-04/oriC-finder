@@ -100,6 +100,7 @@ def main():
     try:
         # Read genome
         sequence = read_fasta(args.genome)
+        sequence = str(sequence.seq)
 
         # Run prediction
         candidates = run_pipeline(

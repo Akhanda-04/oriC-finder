@@ -1,0 +1,2 @@
+start	end	length	gc_skew	motif_count	cumulative_min_position	score
+3924600	3926500	1900	-0.05070993914807302	33	3925596	66.34212981744422
